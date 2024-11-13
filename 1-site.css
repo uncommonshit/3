@@ -1,0 +1,93 @@
+body {
+    font-family: IBMVGA8, monospace;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.left, .center, .right {
+    padding: 10px;
+}
+
+.left {
+    width: 20%;
+    min-width: 200px;
+}
+
+.center {
+    width: 56%;
+    min-width: 300px;
+}
+
+.right {
+    width: 20%;
+    min-width: 200px;
+}
+
+nav ul {
+    background-color: palevioletred;
+    list-style: none;
+    padding: 0;
+    border: 1px solid mediumvioletred;
+}
+
+nav ul li {
+    border-bottom: 1px solid mediumvioletred;
+    padding: 5px;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    width: 100%;
+}
+
+header h1 {
+    color: green;
+}
+
+.center header p {
+    background-color: red;
+    color: white;
+}
+
+.center figure {
+    width: 100%;
+    max-width: 600px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+figure img {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+textarea {
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    color: red;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
